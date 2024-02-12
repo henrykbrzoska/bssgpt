@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>bssgpt</name>
+	<displayName><![CDATA[Hbrzoska]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[test test testtest test testtest test testtest test testtest test test]]></description>
+	<author><![CDATA[czees]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

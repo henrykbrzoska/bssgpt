@@ -1,0 +1,17 @@
+services:
+  _defaults:
+    public: false
+    autowire: true
+    autoconfigure: true
+
+  form.event_listener.form_listener:
+    class: 'Bssgpt\EventListener\FormListener'
+    public: true
+    arguments:
+      - '@PrestaShopBundle\Form\FormCloner'
+  form.extension.listener_extension:
+    class: 'Bssgpt\Form\Admin\Extension\ListenerExtension'
+    arguments:
+      - '@form.event_listener.form_listener'
+    tags:
+      - { name: form.type_extension }

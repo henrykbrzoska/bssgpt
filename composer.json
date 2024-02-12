@@ -1,0 +1,18 @@
+{
+  "name": "prestashop/bssgpt",
+  "description": "",
+  "config": {
+    "optimize-autoloader": true,
+    "prepend-autoloader": false
+  },
+  "autoload": {
+    "classmap": [
+      "bssgpt.php"
+    ],
+    "psr-4": {
+      "Bssgpt\\": "src/"
+    }
+  },
+  "author": "PrestaShop",
+  "license": "MIT"
+}
